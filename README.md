@@ -2,8 +2,8 @@
 
 Requirements
 
-- node 12 (or higher)
-- yarn 1.x (latest)
+-   node 12 (or higher)
+-   yarn 1.x (latest)
 
 ## Project creation
 
@@ -15,7 +15,7 @@ Install Vue CLI version 5.x
 yarn global add @vue/cli@next
 ```
 
-Execute Vue CLI
+Create Project
 
 ```
 vue create vue-codestyle
@@ -38,28 +38,35 @@ Vue CLI v5.0.0-rc.1
 ? Save preset as: sag-default
 ```
 
+Setup Project
+
+-   Add EditorConfig [.editorconfig](.editorconfig)
+-   Add Prettier Config [.prettierrc.json](.prettierrc.json)
+-   Update ESLint Config [.eslintrc.js](.eslintrc.js)
+    -   Change plugin:vue to strongly-recommended
+
 Visual Studio Code
 
 Install Extensions
 
-- https://marketplace.visualstudio.com/items?itemName=octref.vetur
-- https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-- https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+-   https://marketplace.visualstudio.com/items?itemName=octref.vetur
+-   https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+-   https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
-Settings for Project:
+Setup Extensions
 
-- disable vetur.validation.template -> we use eslint
-- disable vetur.format.enable -> we use prettier
-- enable vetur.validation.templateProps -> we want property validation, but eslint dont has it
-- enable vetur.experimental.templateInterpolationService -> we want autocomplete in expressions
-- enable editor.formatOnSave -> we always want formatted code
-- enable editor.formatOnPaste -> we always want formatted code
-- (optional) set defaultFormatter for vue, typescript to prettier -> when we have multiple formatter extensions installed
+-   disable vetur.validation.template -> we use eslint
+-   disable vetur.format.enable -> we use prettier
+-   enable vetur.validation.templateProps -> we want property validation, but eslint dont has it
+-   enable vetur.experimental.templateInterpolationService -> we want autocomplete in expressions
+-   enable editor.formatOnSave -> we always want formatted code
+-   enable editor.formatOnPaste -> we always want formatted code
+-   (optional) set defaultFormatter for vue, typescript to prettier -> when we have multiple formatter extensions installed
 
-Settings Guides:
+Settings Guides
 
-- https://eslint.vuejs.org/user-guide/#editor-integrations
-- https://vuejs.github.io/vetur/guide/setup.html#vs-code-config
+-   https://eslint.vuejs.org/user-guide/#editor-integrations
+-   https://vuejs.github.io/vetur/guide/setup.html#vs-code-config
 
 ## Project setup
 

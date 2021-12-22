@@ -38,14 +38,14 @@ Vue CLI v5.0.0-rc.1
 ? Save preset as: sag-default
 ```
 
-Setup Project
+## Codestyle setup
 
 -   Add EditorConfig [.editorconfig](.editorconfig)
 -   Add Prettier Config [.prettierrc.json](.prettierrc.json)
 -   Update ESLint Config [.eslintrc.js](.eslintrc.js)
     -   Change plugin:vue to strongly-recommended
 
-Visual Studio Code
+## Visual Studio Code setup
 
 Install Extensions
 
@@ -53,7 +53,7 @@ Install Extensions
 -   https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 -   https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
-Setup Extensions
+Setup Extensions [.vscode/settings.json](.vscode/settings.json)
 
 -   disable vetur.validation.template -> we use eslint
 -   disable vetur.format.enable -> we use prettier
@@ -67,37 +67,3 @@ Settings Guides
 
 -   https://eslint.vuejs.org/user-guide/#editor-integrations
 -   https://vuejs.github.io/vetur/guide/setup.html#vs-code-config
-
-## Project setup
-
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-
-```
-yarn build
-```
-
-### Run your unit tests
-
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-
-```
-yarn lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).

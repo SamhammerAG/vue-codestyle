@@ -7,6 +7,7 @@ module.exports = {
     "plugin:vue/strongly-recommended",
     "eslint:recommended",
     "@vue/typescript/recommended",
+    "./.eslintsag",
     "plugin:prettier/recommended"
   ],
   parserOptions: {

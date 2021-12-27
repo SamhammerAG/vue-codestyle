@@ -18,6 +18,7 @@ yarn global add @vue/cli@next
 Create Project
 
 creates vue project with eslint
+
 ```
 vue create vue-codestyle
 
@@ -38,12 +39,13 @@ Vue CLI v5.0.0-rc.1
 ```
 
 adds stylelint
+
 ```
 vue add @samhammer/vue-cli-plugin-stylelint@next
 
 ? Pick a stylelint config: prettier
 ? Include SCSS support Yes
-? Pick additional stylelint features: 
+? Pick additional stylelint features:
 ```
 
 ## Codestyle setup
@@ -73,6 +75,9 @@ Install Extensions
 
 Setup Extensions [.vscode/settings.json](.vscode/settings.json)
 
+This Settings file could be copied as template to your project.
+But manual setup (including reasons) is described below.
+
 ESLint
 
 -   disable vetur.validation.template -> we use eslint
@@ -85,18 +90,22 @@ StyleLint
 -   disable scss.validate & css.validate -> we use stylelint
 -   stylelint.validate add vue -> we want to validate style tag in vue files also
 
-General
+Prettier Autoformat
 
 -   enable editor.formatOnSave -> we always want formatted code
 -   enable editor.formatOnPaste -> we always want formatted code
--   (optional) set defaultFormatter for vue, typescript to prettier -> when we have multiple formatter extensions installed
+-   set defaultFormatter to esbenp.prettier-vscode for all languages used in project (vue, typescript, scss, json ...)
+
+Sample for language "vue"
+
+```
+"[vue]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+```
 
 Settings Guides
 
 -   https://eslint.vuejs.org/user-guide/#editor-integrations
 -   https://vuejs.github.io/vetur/guide/setup.html#vs-code-config
 -   https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint#usage
-
-```
-
-```

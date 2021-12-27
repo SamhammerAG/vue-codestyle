@@ -47,6 +47,13 @@ Vue CLI v5.0.0-rc.1
     -   Change plugin:vue to strongly-recommended
     -   Add SAG Rules as last rule, but before plugin:prettier
 
+Want to know which rules we are using?
+
+```
+yarn run --silent eslint --print-config .eslintrc.js
+yarn run --silent stylelint --print-config .stylelintrc.js
+```
+
 ## Visual Studio Code setup
 
 Install Extensions
@@ -80,3 +87,7 @@ Settings Guides
 -   https://eslint.vuejs.org/user-guide/#editor-integrations
 -   https://vuejs.github.io/vetur/guide/setup.html#vs-code-config
 -   https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint#usage
+
+```
+
+```

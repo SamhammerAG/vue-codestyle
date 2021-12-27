@@ -17,11 +17,10 @@ yarn global add @vue/cli@next
 
 Create Project
 
+creates vue project with eslint
 ```
 vue create vue-codestyle
-```
 
-```
 Vue CLI v5.0.0-rc.1
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Choose Vue version, TS, Router, CSS Pre-processors, Linter, Unit
@@ -36,6 +35,11 @@ Vue CLI v5.0.0-rc.1
 ? Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
 ? Save this as a preset for future projects? Yes
 ? Save preset as: sag-default
+```
+
+adds stylelint
+```
+vue add @samhammer/vue-cli-plugin-stylelint@next
 ```
 
 ## Codestyle setup

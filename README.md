@@ -44,7 +44,6 @@ vue add @samhammer/vue-cli-plugin-stylelint@next
 ? Pick a stylelint config: prettier
 ? Include SCSS support Yes
 ? Pick additional stylelint features: 
-
 ```
 
 ## Codestyle setup

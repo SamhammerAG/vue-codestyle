@@ -42,8 +42,10 @@ Vue CLI v5.0.0-rc.1
 
 -   Add EditorConfig [.editorconfig](.editorconfig)
 -   Add Prettier Config [.prettierrc.json](.prettierrc.json)
+-   Add SAG Rules Config [.eslintsag.json](.eslintsag.json) -> TODO create npm package
 -   Update ESLint Config [.eslintrc.js](.eslintrc.js)
     -   Change plugin:vue to strongly-recommended
+    -   Add SAG Rules as last rule, but before plugin:prettier
 
 ## Visual Studio Code setup
 

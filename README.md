@@ -45,6 +45,7 @@ Vue CLI v5.0.0-rc.1
 -   Add SAG Rules Config [.eslintsag.json](.eslintsag.json) -> TODO create npm package
 -   Update ESLint Config [.eslintrc.js](.eslintrc.js)
     -   Change plugin:vue to strongly-recommended
+    -   Change rules no-console & no-debugger to off
     -   Add SAG Rules as last rule, but before plugin:prettier
 
 Want to know which rules we are using?

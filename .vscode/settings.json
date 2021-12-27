@@ -5,4 +5,12 @@
   "vetur.validation.templateProps": true,
   "vetur.format.enable": false,
   "vetur.experimental.templateInterpolationService": true,
+  "scss.validate": false,
+  "css.validate": false,
+  "stylelint.validate":[
+    "css",
+    "scss",
+    "postcss",
+    "vue"
+  ]
 }

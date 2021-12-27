@@ -55,10 +55,20 @@ Install Extensions
 
 Setup Extensions [.vscode/settings.json](.vscode/settings.json)
 
+ESLint
+
 -   disable vetur.validation.template -> we use eslint
 -   disable vetur.format.enable -> we use prettier
 -   enable vetur.validation.templateProps -> we want property validation, but eslint dont has it
 -   enable vetur.experimental.templateInterpolationService -> we want autocomplete in expressions
+
+StyleLint
+
+-   disable scss.validate & css.validate -> we use stylelint
+-   stylelint.validate add vue -> we want to validate style tag in vue files also
+
+General
+
 -   enable editor.formatOnSave -> we always want formatted code
 -   enable editor.formatOnPaste -> we always want formatted code
 -   (optional) set defaultFormatter for vue, typescript to prettier -> when we have multiple formatter extensions installed
@@ -67,3 +77,4 @@ Settings Guides
 
 -   https://eslint.vuejs.org/user-guide/#editor-integrations
 -   https://vuejs.github.io/vetur/guide/setup.html#vs-code-config
+-   https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint#usage

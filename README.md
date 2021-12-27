@@ -67,16 +67,19 @@ yarn run --silent stylelint --print-config .stylelintrc.js
 
 ## Visual Studio Code setup
 
-Install Extensions
+#### Install VSCode Extensions
 
 -   https://marketplace.visualstudio.com/items?itemName=octref.vetur
 -   https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 -   https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
-Setup Extensions [.vscode/settings.json](.vscode/settings.json)
+#### Setup VSCode Settings
 
-This Settings file could be copied as template to your project.
-But manual setup (including reasons) is described below.
+-   Add [.vscode/settings.json](.vscode/settings.json)
+
+#### Explain VSCode Settings
+
+Describes why/how to set specific settings.
 
 ESLint
 
@@ -94,7 +97,7 @@ Prettier Autoformat
 
 -   enable editor.formatOnSave -> we always want formatted code
 -   enable editor.formatOnPaste -> we always want formatted code
--   set defaultFormatter to esbenp.prettier-vscode for all languages used in project (vue, typescript, scss, json ...)
+-   set defaultFormatter to esbenp.prettier-vscode for all languages used in project (vue, typescript, scss, json ...) -> required when multiple formatters are installed
 
 Sample for language "vue"
 

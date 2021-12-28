@@ -59,7 +59,10 @@ vue add @samhammer/vue-cli-plugin-stylelint@next
     -   Change rules no-console & no-debugger to off
     -   Add SAG Rules as last rule, but before plugin:prettier
 
-## Want to know which rules we are using?
+## Codestyle Troubleshooting
+
+Want to know which rules we are using?
+We can dump the complete configuration by cli commands.
 
 ```
 yarn run --silent eslint --print-config .eslintrc.js

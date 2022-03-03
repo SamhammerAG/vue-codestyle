@@ -12,7 +12,7 @@ How to create and setup a vue2 typescript project with codestyle using eslint + 
 Install Vue CLI version 5.x
 
 ```
-yarn global add @vue/cli@next
+yarn global add @vue/cli
 ```
 
 Create Project
@@ -22,7 +22,7 @@ creates vue project with eslint
 ```
 vue create vue-codestyle
 
-Vue CLI v5.0.0-rc.1
+Vue CLI v5.0.1
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Choose Vue version, TS, Router, CSS Pre-processors, Linter, Unit
 ? Choose a version of Vue.js that you want to start the project with 2.x

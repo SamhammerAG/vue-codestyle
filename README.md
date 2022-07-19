@@ -61,7 +61,9 @@ vue add @samhammer/vue-cli-plugin-stylelint@next
 
 ## Vuetify setup
 
--   Add SAG Rules Config [.eslintsag.json](.eslintsag.json) -> enable/add plugin:vuetify/base
+-   Add eslint-plugin-vuetify to dev dependencies (yarn add -D) -> used in SAG Rules
+-   Update SAG Rules Config [.eslintsag.json](.eslintsag.json)
+    - add plugin:vuetify/base after plugin:vue/*
 
 ## Codestyle Troubleshooting
 

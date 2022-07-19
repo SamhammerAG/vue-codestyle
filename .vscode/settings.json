@@ -1,6 +1,9 @@
 {
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "vetur.validation.template": false,
   "vetur.validation.templateProps": true,
   "vetur.validation.script": true,

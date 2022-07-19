@@ -101,6 +101,7 @@ Prettier Autoformat
 
 -   enable editor.formatOnSave -> we always want formatted code
 -   enable editor.formatOnPaste -> we always want formatted code
+-   add editor.codeActionsOnSave with source.fixAll.eslint -> we always want to fix eslint errors (helps to fix pasting code samples)
 -   set defaultFormatter to esbenp.prettier-vscode for all languages used in project (vue, typescript, scss, json ...) -> required when multiple formatters are installed
 
 Sample for language "vue"

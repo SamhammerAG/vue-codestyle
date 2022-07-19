@@ -3,6 +3,7 @@
   "editor.formatOnPaste": true,
   "vetur.validation.template": false,
   "vetur.validation.templateProps": true,
+  "vetur.validation.script": true,
   "vetur.format.enable": false,
   "vetur.experimental.templateInterpolationService": true,
   "scss.validate": false,

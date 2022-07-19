@@ -59,6 +59,10 @@ vue add @samhammer/vue-cli-plugin-stylelint@next
     -   Change rules no-console & no-debugger to off
     -   Add SAG Rules as last rule, but before plugin:prettier
 
+## Vuetify setup
+
+-   Add SAG Rules Config [.eslintsag.json](.eslintsag.json) -> enable/add plugin:vuetify/base
+
 ## Codestyle Troubleshooting
 
 Want to know which rules we are using?
@@ -101,6 +105,7 @@ Prettier Autoformat
 
 -   enable editor.formatOnSave -> we always want formatted code
 -   enable editor.formatOnPaste -> we always want formatted code
+-   add editor.codeActionsOnSave with source.fixAll.eslint -> we always want to fix eslint errors (helps to fix pasting code samples)
 -   set defaultFormatter to esbenp.prettier-vscode for all languages used in project (vue, typescript, scss, json ...) -> required when multiple formatters are installed
 
 Sample for language "vue"

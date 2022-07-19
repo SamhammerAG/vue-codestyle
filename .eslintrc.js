@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     "plugin:vue/strongly-recommended",
+    //"plugin:vuetify/base", // only required for vuetify projects
     "eslint:recommended",
     "@vue/typescript/recommended",
     "./.eslintsag",

@@ -59,6 +59,10 @@ vue add @samhammer/vue-cli-plugin-stylelint@next
     -   Change rules no-console & no-debugger to off
     -   Add SAG Rules as last rule, but before plugin:prettier
 
+## Vuetify setup
+
+-   Add SAG Rules Config [.eslintsag.json](.eslintsag.json) -> enable/add plugin:vuetify/base
+
 ## Codestyle Troubleshooting
 
 Want to know which rules we are using?

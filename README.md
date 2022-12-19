@@ -22,7 +22,7 @@ creates vue project with eslint
 ```
 vue create vue-codestyle
 
-Vue CLI v5.0.1
+Vue CLI v5.0.8
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Choose Vue version, TS, Router, CSS Pre-processors, Linter, Unit
 ? Choose a version of Vue.js that you want to start the project with 2.x
@@ -41,7 +41,7 @@ Vue CLI v5.0.1
 adds stylelint
 
 ```
-vue add @samhammer/vue-cli-plugin-stylelint@next
+vue add @samhammer/vue-cli-plugin-stylelint
 
 ? Pick a stylelint config: prettier
 ? Include SCSS support Yes
@@ -63,7 +63,7 @@ vue add @samhammer/vue-cli-plugin-stylelint@next
 
 -   Add eslint-plugin-vuetify to dev dependencies (yarn add -D) -> used in SAG Rules
 -   Update SAG Rules Config [.eslintsag.json](.eslintsag.json)
-    - add plugin:vuetify/base after plugin:vue/*
+    -   add plugin:vuetify/base after plugin:vue/\*
 
 ## Codestyle Troubleshooting
 

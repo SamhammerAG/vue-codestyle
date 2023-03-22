@@ -1,4 +1,4 @@
-# vue-codestyle
+# vue-codestyle for vue2
 
 Requirements
 

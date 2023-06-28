@@ -9,6 +9,9 @@ export default defineConfig({
     server: {
         port: 8080
     },
+    build: {
+        target: "esnext"
+    },
     resolve: {
         alias: {
             "@": fileURLToPath(new URL("./src", import.meta.url))

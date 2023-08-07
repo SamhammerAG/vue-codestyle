@@ -17,14 +17,14 @@ yarn create vue
 success Installed "create-vue@3.6.1" with binaries:
 
 √ Project name: ... vue-project
-√ Add TypeScript? ... No / Yes
-√ Add JSX Support? ... No / Yes
-√ Add Vue Router for Single Page Application development? ... No / Yes
-√ Add Pinia for state management? ... No / Yes
-√ Add Vitest for Unit Testing? ... No / Yes
+√ Add TypeScript? ... Yes
+√ Add JSX Support? ... No
+√ Add Vue Router for Single Page Application development? ... Yes
+√ Add Pinia for state management? ... Yes
+√ Add Vitest for Unit Testing? ... Yes
 √ Add an End-to-End Testing Solution? » No
-√ Add ESLint for code quality? ... No / Yes
-√ Add Prettier for code formatting? ... No / Yes
+√ Add ESLint for code quality? ... Yes
+√ Add Prettier for code formatting? ... Yes
 ```
 
 ### install packages
